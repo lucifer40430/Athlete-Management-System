@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-700 p-4 text-white">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-2xl font-bold">Coach Dashboard</h1>
+            <a href="index.html" class="hover:underline  bg-blue-900 py-2 px-2 rounded-2xl">Home</a>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="container mx-auto mt-6 p-6 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-gray-800">Welcome, Coach!</h2>
+        <p class="text-gray-600 mt-2">Manage your athletes, analyze their performance, and track training schedules.</p>
+
+        <!-- Athlete Performance Table -->
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-gray-700">Athlete Performance</h3>
+            <table class="mt-4 w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 p-2">Athlete</th>
+                        <th class="border border-gray-300 p-2">Sport</th>
+                        <th class="border border-gray-300 p-2">Last Performance</th>
+                        <th class="border border-gray-300 p-2">AI Analysis</th>
+                        <th class="border border-gray-300 p-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-center">
+                        <td class="border border-gray-300 p-2">Neeraj Chopra</td>
+                        <td class="border border-gray-300 p-2">Javelin Throw</td>
+                        <td class="border border-gray-300 p-2">Gold Medal - 2023</td>
+                        <td class="border border-gray-300 p-2">98% Efficiency</td>
+                        <td class="border border-gray-300 p-2">
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">View Details</button>
+                        </td>
+                    </tr>
+                    <tr class="text-center bg-gray-50">
+                        <td class="border border-gray-300 p-2">PV Sindhu</td>
+                        <td class="border border-gray-300 p-2">Badminton</td>
+                        <td class="border border-gray-300 p-2">Silver Medal - 2022</td>
+                        <td class="border border-gray-300 p-2">95% Accuracy</td>
+                        <td class="border border-gray-300 p-2">
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">View Details</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Training Schedule -->
+        <div class="mt-8 p-6 bg-gray-100 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold text-gray-700">Training Schedule</h3>
+            <p class="text-gray-600 mt-2">Plan, modify, and track athlete training sessions.</p>
+            <button class="mt-4 px-6 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-700">Manage Schedule</button>
+        </div>
+
+        <!-- AI-Based Posture Analysis -->
+        <div class="mt-8 p-6 bg-gray-100 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold text-gray-700">AI-Based Posture Analysis</h3>
+            <p class="text-gray-600 mt-2">Analyze movement using **AI & MediaPipe** for better training insights.</p>
+            <button class="mt-4 px-6 py-2 bg-purple-500 text-white font-semibold rounded-lg hover:bg-purple-700">Start Analysis</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

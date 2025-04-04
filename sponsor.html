@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-700 p-4 text-white">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-2xl font-bold">Sponsor Dashboard</h1>
+            <a href="index.html" class="hover:underline">Home</a>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="container mx-auto mt-6 p-6 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-gray-800">Welcome, Sponsor!</h2>
+        <p class="text-gray-600 mt-2">Discover talented athletes and manage your sponsorships.</p>
+
+        <!-- Athlete Sponsorship Table -->
+        <div class="mt-6">
+            <h3 class="text-2xl font-bold text-gray-700">Athletes Seeking Sponsorship</h3>
+            <table class="mt-4 w-full border-collapse border border-gray-300">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border border-gray-300 p-2">Athlete</th>
+                        <th class="border border-gray-300 p-2">Sport</th>
+                        <th class="border border-gray-300 p-2">Achievements</th>
+                        <th class="border border-gray-300 p-2">Sponsorship Needed</th>
+                        <th class="border border-gray-300 p-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-center">
+                        <td class="border border-gray-300 p-2">Neeraj Chopra</td>
+                        <td class="border border-gray-300 p-2">Javelin Throw</td>
+                        <td class="border border-gray-300 p-2">Olympic Gold Medalist</td>
+                        <td class="border border-gray-300 p-2">$100,000</td>
+                        <td class="border border-gray-300 p-2">
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Sponsor</button>
+                        </td>
+                    </tr>
+                    <tr class="text-center bg-gray-50">
+                        <td class="border border-gray-300 p-2">PV Sindhu</td>
+                        <td class="border border-gray-300 p-2">Badminton</td>
+                        <td class="border border-gray-300 p-2">World Champion</td>
+                        <td class="border border-gray-300 p-2">$80,000</td>
+                        <td class="border border-gray-300 p-2">
+                            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Sponsor</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Investment Opportunities -->
+        <div class="mt-8 p-6 bg-gray-100 rounded-lg shadow-md">
+            <h3 class="text-2xl font-bold text-gray-700">Investment Opportunities</h3>
+            <p class="text-gray-600 mt-2">Explore high-potential athletes and sports ventures.</p>
+            <button class="mt-4 px-6 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-700">View More</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

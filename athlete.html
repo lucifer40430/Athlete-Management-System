@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athlete Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-700 p-4 text-white">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-2xl font-bold">Athlete Dashboard</h1>
+            <a href="index.html" class="hover:underline bg-blue-900 py-2 px-2 rounded-2xl  ">Home</a>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="container mx-auto mt-6 p-6 bg-white rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-gray-800">Welcome, Athlete!</h2>
+
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div class="p-6 bg-gray-100 rounded-lg shadow">
+                <h3 class="text-xl font-bold">Your Performance</h3>
+                <p class="text-gray-600">AI-powered performance tracking updates.</p>
+                <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg">View Details</button>
+            </div>
+
+            <div class="p-6 bg-gray-100 rounded-lg shadow">
+                <h3 class="text-xl font-bold">Upcoming Schedule</h3>
+                <p class="text-gray-600">View your training and competition schedule.</p>
+                <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg">View Schedule</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
